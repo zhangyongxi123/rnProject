@@ -5,16 +5,12 @@ import { appEnv, appConfig } from '../appConfig';
  */
 const devConfig = {
   // 开发测试环境地址
-  // baseUrl: 'https://plist.horitech.com.cn:8086/mobile/',
-  // baseUrl: 'http://39.105.172.162:8600/oa/',
-  // baseUrl: 'http://192.168.0.105:8080',
-  // baseUrl: 'http://10.20.209.119:8080',
-  baseUrl: 'https://mobile.sinochem.com:28443/UATServer',
-  previewServerBaseUrl: 'http://10.20.209.181:8088',
+  baseUrl: 'https://xxxx',
+  previewServerBaseUrl: 'http://xxxx',
   defaultTimeout: 45000, // 默认超时45秒
   prefix: '',
   // 测试移动平台应用 id
-  application: 'c3c410fff3cc414084764ec20a2c72ca',
+  application: 'xxxxx',
   dataUserstore: ''
 };
 
@@ -23,7 +19,7 @@ const devConfig = {
  */
 const uatConfig = {
   // 开发测试环境地址
-  baseUrl: 'http://uat.example-server.com',
+  baseUrl: 'http://xxxx',
   defaultTimeout: 45000, // 默认超时45秒
   prefix: '',
   // 测试移动平台应用 id
@@ -35,7 +31,7 @@ const uatConfig = {
  */
 const productConfig = {
   // 生产地址
-  baseUrl: 'http://product.example-server.com',
+  baseUrl: 'http://xxxxxx',
   defaultTimeout: 45000, // 默认超时45秒
   prefix: '',
   // 生产移动平台应用 id
