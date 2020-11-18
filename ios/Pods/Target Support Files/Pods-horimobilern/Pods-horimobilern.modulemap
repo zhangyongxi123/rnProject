@@ -1,0 +1,6 @@
+module Pods_horimobilern {
+  umbrella header "Pods-horimobilern-umbrella.h"
+
+  export *
+  module * { export * }
+}
